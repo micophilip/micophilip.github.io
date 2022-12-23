@@ -5,6 +5,7 @@ title: mico's github
 description: A collection of github projects
 show_downloads: false
 repository: micophilip/micophilip.github.io
+author: mico
 social_links:
   - platform: medium
     url: https://micophilip.medium.com
@@ -12,3 +13,5 @@ social_links:
   - platform: dev.to
     url: http://dev.to/micophilip
     icon: 💻
+date_format: "%Y/%m/%-d"
+show_excerpts: false
