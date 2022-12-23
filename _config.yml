@@ -5,3 +5,10 @@ title: mico's github
 description: A collection of github projects
 show_downloads: false
 repository: micophilip/micophilip.github.io
+social_links:
+  - platform: medium
+    url: https://micophilip.medium.com
+    icon: 📰
+  - platform: dev.to
+    url: http://dev.to/micophilip
+    icon: 💻
