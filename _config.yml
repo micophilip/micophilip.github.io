@@ -14,8 +14,6 @@ short_url: micophilip.github.io
 github: micophilip
 baseurl: /
 
-username: micophilip
-
 # Permalinks
 permalink: /:title
 
@@ -43,7 +41,8 @@ plugins: [jekyll-paginate]
 # or "master" otherwise
 safe: false
 lsi: false
-repo: micophilip.github.io
+username: micophilip
+repo: micophilip
 branch: master
 production_url:  https://micophilip.github.io/
 source_url:  https://github.com/micophilip/micophilip.github.io/
