@@ -52,6 +52,10 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
+        
+        {% for social_link in site.social_links %}
+        <a href="{{social_link.url}}"><img src="{{social_link.logo}}" alt="{{social_link.name}}" width="25" height="25"></a>
+        {% endfor %}
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
