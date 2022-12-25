@@ -10,7 +10,7 @@ language: 'en-us'
 name: "Mico's Github Projects"
 description: "Collection of software development projects"
 
-short_url: micophilip.github.io
+short_url: 'micophilip.github.io/'
 github: micophilip
 baseurl: /
 
@@ -42,7 +42,7 @@ plugins: [jekyll-paginate]
 safe: false
 lsi: false
 username: micophilip
-repo: micophilip
+repo: micophilip.github.io
 branch: master
 production_url:  https://micophilip.github.io/
 source_url:  https://github.com/micophilip/micophilip.github.io/
