@@ -1,36 +1,40 @@
 ---
 layout: default
-class: 'page-template'
 ---
-<!-- < default -->
 
-<!-- This is a page template. A page outputs content just like any other post, and has all the same -->
-    <!-- attributes by default, but you can also customise it to behave differently if you prefer.  -->
+{{ content }}
 
-<!-- Everything inside the #post tags pulls data from the page -->
-<!-- #post -->
+<div>
 
-<header class="main-header post-head {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}){% else %}no-cover{% endif %}">
-    <nav class="main-nav {% if page.cover %}overlay{% endif %} clearfix">
-        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
-        {% if page.navigation %}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+{% assign tag_printed = false %}
+
+{% assign tags = site.tags %}
+
+{% if tags.size > 0 %}
+
+  {% for tag in tags %}
+    
+    {% assign posts = tag[1] | where_exp: "post", "post.category == page.category" %}
+
+    
+    {% if posts.size > 0 %}
+      {% if tag_printed == false %}
+        <h1>Tags</h1>
+        {% assign tag_printed = true %}
+      {% endif %}
+      <h3> {{ tag[0] }} </h3>
+    {% endif %}
+    
+    <ul>
+      {% for post in posts %}
+        {% if post.category == page.category %}
+
+        <li><a href="{{ post.url }}">{{ post.title }} <small>{{post.date}} {{ post.excerpt }}</small></a></li>
         {% endif %}
-    </nav>
-</header>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 
-<main class="content" role="main">
-    <article class="post">
-        <!-- Everything inside the #post tags pulls data from the post -->
+{% endif %}
 
-        <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-        </header>
-
-        <section class="post-content">
-            {{ content }}
-        </section>
-
-    </article>
-</main>
-<!-- /post -->
+</div>
