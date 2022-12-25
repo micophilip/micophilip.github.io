@@ -5,6 +5,6 @@ description: My Leetcode solutions
 category: leetcode
 ---
 
-## Welcome to leetcode page
+## My Leetcode Solutions
 
-_yay_
+_Coming soon!_
