@@ -3,6 +3,7 @@ layout: page
 title: About
 navigation: true
 current: about
+permalink: /about/
 ---
 
 Hello,

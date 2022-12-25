@@ -12,7 +12,7 @@ description: "Collection of software development projects"
 
 short_url: 'micophilip.github.io/'
 github: micophilip
-baseurl: /
+baseurl: '/'
 
 # Permalinks
 permalink: /:title
