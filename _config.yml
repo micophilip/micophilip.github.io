@@ -16,3 +16,4 @@ social_links:
   - name: dev.to
     logo: /assets/img/dev.svg
     url: https://dev.to/micophilip
+timezone: 'Americas/Toronto'
