@@ -25,7 +25,9 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-        {% for page in site.pages %}
+        {% assign pages = site.pages | where_exp: "page", "page.title != 'Not Found'" %}
+        
+        {% for page in pages %}
         <p class="view"><a href="{{ page.url }}">{{ page.title }} <small>{{ page.description }}</small></a></p>
         {% endfor %}
 
