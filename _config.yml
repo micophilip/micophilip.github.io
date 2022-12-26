@@ -16,4 +16,7 @@ social_links:
   - name: dev.to
     logo: /assets/img/dev.svg
     url: https://dev.to/micophilip
+  - name: leetcode
+    logo: /assets/img/leetcode.svg
+    url: https://leetcode.com/micophilip/
 timezone: 'Americas/Toronto'
