@@ -1,6 +1,6 @@
-title: Mico's Github
+title: Mico's GitHub
 logo: /assets/img/logo.png
-description: A collection of my github projects
+description: A collection of my GitHub projects
 show_downloads: false
 theme: jekyll-theme-minimal
 github:
@@ -20,3 +20,4 @@ social_links:
     logo: /assets/img/leetcode.svg
     url: https://leetcode.com/micophilip/
 timezone: 'Americas/Toronto'
+show_source: false

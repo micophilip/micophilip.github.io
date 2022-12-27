@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Projects
-description: A collection of Github projects
+description: A collection of GitHub projects
 category: project
 ---
 
-## My Github Projects
+## My GitHub Projects
 
-A list of my Github projects:
+A list of my GitHub projects:
 
 * [NER Explainer](https://github.com/micophilip/ner-explainer)  
   Explainable Named Entity Recognition
