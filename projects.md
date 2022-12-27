@@ -5,7 +5,7 @@ description: A collection of GitHub projects
 category: project
 ---
 
-## My GitHub Projects
+# My GitHub Projects
 
 A list of my GitHub projects:
 
