@@ -52,6 +52,5 @@ This can be optimized by checking whether our `word` starts with `lcp_candidate`
 
 ## Notes:
 * [Link to Problem](https://leetcode.com/problems/longest-common-prefix/description/)
-* [Link to Submission](https://leetcode.com/submissions/detail/1064252347/)
 * Runtime beats 48.13% of `python3` submissions
 * Memory usage beats 21.57% of `python3` submissions

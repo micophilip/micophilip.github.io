@@ -77,7 +77,6 @@ Since we know that the roman numerals cannot be an arbitrary number of letters, 
 
 ## Notes:
 * [Link to Problem](https://leetcode.com/problems/roman-to-integer/description/)
-* [Link to Submission](https://leetcode.com/submissions/detail/1057319893/)
 * Runtime beats 41.23% of `python3` submissions
 * Memory usage beats 72.91% of `python3` submissions
 
