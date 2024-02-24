@@ -1,7 +1,7 @@
 ---
 layout: post
 tag: easy
-title: Valid-Parentheses
+title: Valid Parentheses
 category: leetcode
 excerpt_separator: <!--more-->
 author: mico
