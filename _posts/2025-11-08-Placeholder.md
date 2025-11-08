@@ -1,8 +1,8 @@
 ---
 layout: post
 tag: data-engineering
-title: Placeholder
-category: blog
+title: PLACEHOLDER
+category: posts
 excerpt_separator: <!--more-->
 author: mico
 date: 2025-11-08 15:24:58
