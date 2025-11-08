@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% seo %}
-  <link rel="stylesheet" href="{{ " /assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
     type="text/javascript"></script>
@@ -62,12 +62,12 @@
       {% endif %}
 
       {% for social_link in site.social_links %}
-      <a href="{{social_link.url}}"><img src="{{social_link.logo}}" alt="{{social_link.name}}" width="25"
+      <a target="_blank" rel="noopener noreferrer" href="{{social_link.url}}"><img src="{{social_link.logo}}" alt="{{social_link.name}}" width="25"
           height="25"></a>
       {% endfor %}
     </footer>
   </div>
-  <script src="{{ " /assets/js/scale.fix.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 </body>
 
 </html>
