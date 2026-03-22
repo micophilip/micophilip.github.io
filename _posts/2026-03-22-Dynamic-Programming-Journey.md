@@ -1,7 +1,7 @@
 ---
 layout: post
 tag: dynamic-programming
-title: Refreshing my Dynamic Programming Skills
+title: Dynamic Programming For Beginners
 category: posts
 excerpt_separator: <!--more-->
 author: mico
@@ -11,7 +11,9 @@ date: 2026-03-22 21:36:42 UTC
 I embarked on a new journey to refresh my understanding of dynamic programming.
 <!--more-->
 
-Even though I use dynamic programming every day without actually calling it that. Somehow, I dodged having to solve dynamic programming problems in tech interviews. Part of that started as a desire to put my LeetCode subscription to good use, and another is a genuine desire to stay "up-to-date" pretending that my good buddy Claude hadn't just deemed all this knowledge unnecessary.
+Even though I use dynamic programming every day without actually calling it that. Somehow, I dodged having to solve dynamic programming problems in tech interviews. This journey started as a desire to put my LeetCode subscription to good use, and another is a genuine desire to stay "up-to-date" pretending that my good buddy Claude hadn't just deemed all this knowledge unnecessary.
+
+Throughout this journey I will aim to simplify the concepts as much as possible.
 
 ## The Problem
 
@@ -19,7 +21,7 @@ I started with a LeetCode study plan for dynamic programming and the first probl
 
 ## Solution Journey
 
-Then I followed a common pattern of writing the bruteforce solution by hand not by code. OK, to get to the 3rd step, I can either take 1 step followed by 2 steps, or I take 2 steps followed by 1 step, or I take 1 step, another 1 step and a final 1 step. OK still doesn't lead me anywhere. Except that the base solution is there's at least 1 way is always taking 1 step at a time, and at least one other way using 2 steps regardless if $n$ is even or odd. If it's even, it'll just be 2 steps all the way, if it's odd, it'll be 2 steps until the second-to-last step where I'll just take 1 step. But it doesn't change the number of ways.
+Then I followed a common pattern of writing the bruteforce solution by hand not by code. OK, to get to the 3rd step, I can either take 1 step followed by 2 steps, or I take 2 steps followed by 1 step, or I take 1 step, another 1 step and a final 1 step. OK still doesn't lead me anywhere. Except that the base solution is there's at least 1 way is always taking 1 step at a time, and at least one other way using 2 steps regardless if $n$ is even or odd. If it's even, it'll just be 2 steps all the way, if it's odd, it'll be 2 steps until the second-to-last step where I'll just take 1 step. But it doesn't change the number of ways. So there's at least 2 ways for $n>1$, and 1 way for $n=1$. But what about the number of ways in the middle of the flight of stairs? That is, what about the number of ways I can alternate the 1 and 2 steps? (as opposed to taking 1 step all the way or taking 2 steps all the way)
 
 ## The Simple Realization
 
