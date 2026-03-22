@@ -11,7 +11,7 @@ date: 2026-03-22 21:36:42 UTC
 I embarked on a new journey to refresh my understanding of dynamic programming.
 <!--more-->
 
-Even though I use dynamic programming every day without actually calling it that. Somehow, I dodged having to solve dynamic problems in tech interviews. Part of that started as a desire to put my LeetCode subscription to good use, and another is a genuine desire to stay "up-to-date" pretending that my good buddy Claude hadn't just deemed all this knowledge unnecessary.
+Even though I use dynamic programming every day without actually calling it that. Somehow, I dodged having to solve dynamic programming problems in tech interviews. Part of that started as a desire to put my LeetCode subscription to good use, and another is a genuine desire to stay "up-to-date" pretending that my good buddy Claude hadn't just deemed all this knowledge unnecessary.
 
 ## The Problem
 
