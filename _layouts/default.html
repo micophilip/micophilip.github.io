@@ -9,11 +9,18 @@
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    type="text/javascript"></script>
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js" defer></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        packages: ['base', 'newcommand', 'configMacros']
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+    </script>
   {% include head-custom.html %}
 </head>
 
