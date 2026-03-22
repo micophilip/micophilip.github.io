@@ -23,11 +23,9 @@ Then I followed a common pattern of writing the bruteforce solution by hand not 
 
 ## The Simple Realization
 
-This led me to the basic realization that the solution involves doing "_something_" with $+1$ and add it to "_something_" with $+2$. But what is it? Calling the same function once with $n+1$ and another with $n+2$ and add up the result? Size of the permutation of $n+1$ plus the size of the permutation of $n+2$?
+This led me to the basic realization that the solution involves doing "_something_" with $+1$ and add it to "_something_" with $+2$.
 
-That process took 25 minutes, the maximum I set to myself to come up with a solution. Surprisingly, my random permutation size solution passed the basic test cases but obviously failed as soon as I submitted.
-
-As I was reading the solution, I already felt so much pride as soon as I saw that part of the solution was:
+As I was reading the editorial solution, I already felt so much pride as soon as I saw that part of the solution was:
 
 ```python
 dp[i] = dp[i-1] + dp[i-2]
