@@ -19,7 +19,7 @@ I started with a LeetCode study plan for dynamic programming and the first probl
 
 ## Solution Journey
 
-Then I followed a common pattern of writing the bruteforce solution by hand not by code. OK, to get to the 3rd step, I can either take 1 step followed by 2 steps, or I take 2 steps followed by 1 step, or I take 1 step, another 1 step and a final 1 step. OK still doesn't lead me anywhere. Except that the base solution is there's at least 1 way is always taking 1 step at a time, and at least one other way using 2 steps regardless if $n$ is even or odd since if it's even, it'll just be 2 steps all the way, if it's odd, it'll be 2 steps until the second-to-last step where I'll just take 1 step. But it doesn't change the number of ways.
+Then I followed a common pattern of writing the bruteforce solution by hand not by code. OK, to get to the 3rd step, I can either take 1 step followed by 2 steps, or I take 2 steps followed by 1 step, or I take 1 step, another 1 step and a final 1 step. OK still doesn't lead me anywhere. Except that the base solution is there's at least 1 way is always taking 1 step at a time, and at least one other way using 2 steps regardless if $n$ is even or odd. If it's even, it'll just be 2 steps all the way, if it's odd, it'll be 2 steps until the second-to-last step where I'll just take 1 step. But it doesn't change the number of ways.
 
 ## The Simple Realization
 
