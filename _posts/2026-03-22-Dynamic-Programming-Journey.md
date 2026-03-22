@@ -15,7 +15,7 @@ Even though I use dynamic programming every day without actually calling it that
 
 ## The Problem
 
-I started with a LeetCode study plan for dynamic programming and the first problem was: "in how many distinct ways can you climb $n$ steps of stairs if you can only take either 1 step or 2 steps". I stared at it for a good 15 minutes 🤨 even after reading the hint a mere 45 seconds after reading the problem. The hint was awkwardly phrased: "To reach nth step, what could have been your previous steps? (Think about the step sizes)". Which to me sounded like just another way to frame the question and not really a hint to a possible solution. "what could have been your previous steps" is another way of saying "how many steps to get to the top of the stairs", and "think about the step sizes" was already part of the question, step size is either 1 or 2. OK, hint useless.
+I started with a LeetCode study plan for dynamic programming and the first problem was: "in how many distinct ways can you climb $n$ steps of stairs if you can only take either 1 step or 2 steps". I stared at it for a good 15 minutes, even after reading the hint a mere 45 seconds after reading the problem. The hint was awkwardly phrased: "To reach nth step, what could have been your previous steps? (Think about the step sizes)". Which to me sounded like just another way to frame the question and not really a hint to a possible solution. "what could have been your previous steps" is another way of saying "how many steps to get to the top of the stairs", and "think about the step sizes" was already part of the question, step size is either 1 or 2. OK, hint useless.
 
 ## Solution Journey
 
