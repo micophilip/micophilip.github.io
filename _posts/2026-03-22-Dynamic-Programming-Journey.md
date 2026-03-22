@@ -35,7 +35,7 @@ Bingo, that's the "_something_" I was looking for! But why minus though in the i
 
 ## Reflection
 
-Obviously as a software developer I always knew that dynamic programming is breaking problems into subproblems. But two main characteristics stood out as soon as I read the chapter on the topic from [Introduction to Algorithms](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/) book.
+Obviously as a software developer I always knew that dynamic programming is breaking problems into subproblems. But two main characteristics stood out as soon as I re-read the chapter on the topic from [Introduction to Algorithms](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/) book.
 
 1. We are trying to find an optimal _value_ not necessarily an optimal _solution_. For the stairs example, this simply means we need to find the number of ways, not list the ways themselves.
 2. These subproblems overlap. In other words, they are dependent solutions. In other words, you need to only compute them once. In other words, good old divide-and-conquer (recursion without memoization) will solve the same subproblem over and over and over.
